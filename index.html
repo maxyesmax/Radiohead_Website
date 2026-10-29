@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="lv">
+    <head>
+        <meta charset="utf-8">
+        <title>Radiohead vēsture</title>
+        <meta name="description" content="Šis ir Maksa Andronova HTML dokuments">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- parallax kalniem -->
+        <div class="parallax">
+            <button class="sun" type="button" popovertarget="sun-menu" aria-label="Atvērt izvēlni"></button>
+            <svg class="layer far" aria-hidden="true" viewBox="0 0 1000 600" preserveAspectRatio="none">
+                <polygon points="0,600 0,160 90,90 170,150 260,60 350,140 440,80 540,150 630,50 720,130 810,85 900,150 1000,70 1000,600"/>
+            </svg>
+            <svg class="layer mid" aria-hidden="true" viewBox="0 0 1000 600" preserveAspectRatio="none">
+                <polygon points="0,600 0,220 70,150 150,210 250,120 340,200 450,110 560,210 660,130 760,200 860,120 940,190 1000,140 1000,600"/>
+            </svg>
+            <svg class="layer near" aria-hidden="true" viewBox="0 0 1000 600" preserveAspectRatio="none">
+                <polygon points="0,600 0,280 100,200 190,270 300,180 410,270 520,190 640,280 750,200 860,270 940,210 1000,260 1000,600"/>
+            </svg>
+        </div>
+
+        <!-- sun menu -->
+        <nav class="sun-menu" id="sun-menu" popover aria-label="Lapas izvēlne">
+            <ul>
+                <li><a href="index.html" aria-current="page">Sākums</a></li>
+                <li><a href="albumi.html">Albumi</a></li>
+                <li><a href="dalibnieki.html">Dalībnieki</a></li>
+            </ul>
+        </nav>
+
+        <!-- galvene -->
+        <header>
+            <div class="container">
+                <p class="lead">Radiohead</p>
+                <p class="subtitle">A job that slowly kills you... </p>
+            </div>
+        </header>
+
+        <!-- navigacijas bloks -->
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Radiohead" target="_blank">Radiohead Wikipedia</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dWHe_GHJMFo" target="_blank">Radiohead - A Deep Dive</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=W7sCRc0KIhc" target="_blank">RADIOHEAD: A Job That Slowly Kills You</a>
+                    </li>
+                    <li>
+                        <a href="https://www.venta.lv/" target="_blank">VeA</a>
+                    </li>
+                    <li>
+                        <a href="https://validator.w3.org/" target="_blank">W3 Validator</a>
+                    </li>
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML reference</a>
+                    </li>
+                    <li>
+                        <a href="https://git-scm.com/" target="_blank">Git</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- saturs -->
+        <main class="container">
+
+            <div class="flexbox-columns">
+                <article id="ievads">
+                    <h1>A Short Introduction</h1>
+
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Radiohead_Coachella_2004.jpg/500px-Radiohead_Coachella_2004.jpg" alt="Radiohead uzstājas skatuvē">
+                        <figcaption>Radiohead, Coachella 2004</figcaption>
+                    </figure>
+
+                    <p><em>Radiohead</em> ir angļu alternatīvā roka grupa no Ebingdonas pie Temzas, Oksfordšīras grāfistes.
+                     Visu grupas pastāvēšanas laiku tās sastāvs ir palicis nemainīgs: Toms Jorks (balss, ģitāra, klavieres),
+                     brāļi Džonijs Grīnvuds (soloģitāra, citi instrumenti) un Kolins Grīnvuds (basģitāra), Eds Obraiens (ģitāra, otrā balss)
+                     un Fils Selvejs (bungas).
+                    </p>
+
+                    <p>Radiohead 1992. gadā izlaida savu pirmo singlu <em>Creep</em>. Šī dziesma nekļuva populāra uzreiz,
+                     tikai dažus mēnešus pēc grupas pirmā albuma <em>Pablo Honey</em> (1993) izdošanas.
+                     Grupas popularitāte Apvienotajā Karalistē pieauga līdz ar otrā studijas albuma <em>The Bends</em> izdošanu 1995. gadā.
+                     1997. gadā grupa izdeva savu trešo studijas albumu - <em>OK Computer</em>, kas atnesa grupai arī starptautisku slavu.
+                     Šis albums bieži vien tiek atzīmēts kā viens no deviņdesmito gadu labākajiem albumiem.
+                     Pitchfork to ierindo trešajā vietā 150 labāko deviņdesmito gadu albumu sarakstā,
+                     bet Rolling Stone - trešajā vietā savā 100 labāko deviņdesmito gadu albumu sarakstā.
+                    </p>
+
+                    <p>2000. gadā izdotais albums <em>Kid A</em>, kā arī 2001. gadā izdotais <em>Amnesiac</em> iezīmējās ar izmaiņām grupas muzikālajā stilā,
+                     vairāk eksperimentējot ar elektroniskās mūzikas, krautroka, postpanka, kā arī džeza elementiem.
+                     Šie albumi atnesa grupai vēl lielāku popularitāti. 2003. gadā izdotajā <em>Hail to the Thief</em> bija atrodami visi stilistiskie Radiohead elementi.
+                     2007. gadā tika izdots 7. studijas albums <em>In Rainbows</em>, kas iezīmējās ar to, ka to varēja iegādāties digitāli, pircējam pašam nosakot cenu.
+                     Tiesa, lielākā daļa pircēju izvēlējās nemaksāt neko, bet vidējā par albumu samaksātā cena pasaulē bija 6 ASV dolāri.
+                     Diska formātā albums tika oficiāli izlaists 2007. gada 31. decembrī.
+                    </p>
+
+                    <p>Radiohead līdz šim ir izdevusi deviņus studijas albumus, kopumā līdz 2018. gadam pārdodot gandrīz 40 miljonus ierakstu kopiju.
+                     2019. gadā Radiohead tika uzņemti Rokenrola slavas zālē. Grupas eksperimentālā pieeja ir ietekmējusi
+                     alternatīvā roka žanra attīstību visā pasaulē.
+                    </p>
+                </article>
+            </div>
+        </main>
+
+        <!-- kajene -->
+        <footer>
+            <div class="container">
+                <p>
+                    &#x1F4C0; Makss Andronovs, VeA, 2026
+                </p>
+            </div>
+        </footer>
+
+    </body>
+</html>
